@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Special+Gothic+Expanded+One&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +7,104 @@
 
 body {
   background-color: #727272;
+
+  margin-bottom: 100px;
+}
+
+.menu {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 15px 15px;
+
+  border-bottom: solid 3px rgba(241, 240, 240, 0.2);
+  backdrop-filter: blur(7px);
+  background-color: #4949495a;
+
+  position: fixed;
+  z-index: 100000;
+}
+
+.menu a {
+  text-align: center;
+  color: rgba(204, 204, 204, 0.9);
+  text-decoration: none;
+
+  font-family: "Outfit", sans-serif;
+}
+
+.logo {
+  min-width: 5vw;
+  max-width: 50px;
+  height: auto;
+  background-color: #494949;
+  border-radius: 5px;
+}
+
+.rocks {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  box-shadow: -6px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  width: 90%;
+  height: 90vh;
+
+  position: relative;
+  left: 5%;
+  top: 20vh;
+
+  overflow: hidden;
+}
+
+.rock1 {
+  width: 70%;
+  max-width: 500px;
+  min-width: 100px;
+  height: auto;
+  filter: blur(0.1px);
+  z-index: 3;
+  position: absolute;
+  bottom: -10%;
+  left: 25%;
+}
+
+.rock2 {
+  width: 50%;
+  height: auto;
+  filter: blur(0.5px);
+  z-index: 2;
+  position: absolute;
+  bottom: -10%;
+  right: -10%;
+}
+
+.rock3 {
+  width: 55%;
+  height: auto;
+  transform: rotate(30deg);
+  z-index: 1;
+  position: absolute;
+  bottom: -10%;
+  left: -5%;
+}
+
+.titulo {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-size: 500%;
+
+  text-align: center;
+
+  color: rgba(245, 245, 245, 0.756);
+  position: absolute;
+  left: 4%;
+}
+
+.perfum {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  z-index: 5;
 }
