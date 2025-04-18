@@ -55,6 +55,8 @@ body {
   top: 20vh;
 
   overflow: hidden;
+
+  margin-bottom: 100px;
 }
 
 .rock1 {
@@ -72,6 +74,8 @@ body {
 .rock2 {
   width: 50%;
   height: auto;
+  max-width: 500px;
+  min-width: 100px;
   filter: blur(0.5px);
   z-index: 2;
   position: absolute;
@@ -82,6 +86,8 @@ body {
 .rock3 {
   width: 55%;
   height: auto;
+  max-width: 500px;
+  min-width: 100px;
   transform: rotate(30deg);
   z-index: 1;
   position: absolute;
