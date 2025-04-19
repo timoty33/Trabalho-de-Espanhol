@@ -298,7 +298,7 @@ body {
 
 .mensagem-profunda {
   font-family: "Special Gothic", sans-serif;
-  color: whitesmoke;
+  color: rgba(203, 17, 17, 0.9);
   font-size: 3vw;
   text-align: center;
 }
