@@ -186,6 +186,17 @@ body {
   left: 3.5vw;
 }
 
+.divisoria1 {
+  width: 90vw;
+  height: 5px;
+  border-radius: 50%;
+  border: none;
+  background: radial-gradient(rgba(241, 79, 79, 0.9), rgba(203, 17, 17, 0.9));
+  position: absolute;
+  top: calc(310vh + 10px);
+  left: 3.5vw;
+}
+
 .caracteristicas {
   position: absolute;
   top: 120vh;
@@ -311,7 +322,7 @@ body {
 
 .paragrafo1 {
   font-family: "Outfit", sans-serif;
-  font-size: 2vw;
+  font-size: 2em;
   background-color: #979797;
   box-shadow: -6px 10px 10px rgba(0, 0, 0, 0.489), inset 4px 4px 8px #c1c1c1,
     inset -4px -4px 8px #7a7a7a;
@@ -325,7 +336,7 @@ body {
 
 .paragrafo2 {
   font-family: "Outfit", sans-serif;
-  font-size: 2.2vw;
+  font-size: 2em;
   background-color: #979797;
   box-shadow: -6px 10px 10px rgba(0, 0, 0, 0.489), inset 4px 4px 8px #c1c1c1,
     inset -4px -4px 8px #7a7a7a;
@@ -344,7 +355,7 @@ body {
   padding: 40px 0;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
-  top: 350vh;
+  top: 400vh;
   display: grid;
   grid-template-columns: 33vw 34vw 33vw;
 
