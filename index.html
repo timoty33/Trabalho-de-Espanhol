@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/icone(1).ico" />
+
     <title>Pefume SIGMA</title>
   </head>
   <body>
@@ -14,25 +16,33 @@
         <a href="#inicio"><p>Inicio</p></a>
         <a href="#caracteristicas"><p>Características</p></a>
         <a href="#sobre"><p>Acerca de nosotros</p></a>
+        <audio id="sigma-music" controls autoplay loop class="music">
+          <source src="audio/sigma-music.mp3" type="audio/mpeg" />
+        </audio>
       </div>
     </nav>
 
     <section id="inicio" class="inicio">
       <div class="rocks" data-aos="fade-up" data-aos-duration="1000">
         <h1 class="titulo">
-          <span style="font-weight: 900">S</span>
-          <span style="font-weight: 500; font-family: 'Outfit'">I</span>
-          <span style="font-weight: 900; font-family: 'Oswald'">G</span>
-          <span style="font-weight: 100"><em>M</em></span>
-          <span style="font-weight: 900; font-family: 'Special Gothic'">A</span
-          >: <br />La Esencia del <br />
+          <span style="color: whitesmoke">
+            <span style="font-weight: 900">S</span>
+            <span style="font-weight: 500; font-family: 'Outfit'">I</span>
+            <span style="font-weight: 900; font-family: 'Oswald'">G</span>
+            <span style="font-weight: 100"><em>M</em></span>
+            <span style="font-weight: 900; font-family: 'Special Gothic'"
+              >A</span
+            >
+            :
+          </span>
+          <br />La Esencia del <br />
           Poder y la Distinción
         </h1>
         <img
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
           data-aos-duration="1000"
-          data-aos-delay="700"
+          data-aos-delay="300"
           class="perfum"
           src="images/perfum.png"
         />
@@ -41,7 +51,48 @@
         <img class="rock3" src="images/rock3.png" />
       </div>
     </section>
-    <section id="caracteristicas"></section>
+
+    <hr class="divisoria" />
+
+    <section id="caracteristicas" class="caracteristicas">
+      <div class="tabela">
+        <img src="images/GigaChad.png" />
+        <div class="skills-bars">
+          <h1 data-aos="fade-up" data-aos-duration="500" class="titulo-tabela">
+            Las fragancias del perfume
+          </h1>
+          <ul>
+            <li data-aos="fade-right" data-aos-duration="700">
+              Amaderado
+              <span class="barra"><span class="amadeirado"></span></span>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="700">
+              Especiado Picante
+              <span class="barra"><span class="picante"></span></span>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="700">
+              Aromático
+              <span class="barra"><span class="aromatico"></span></span>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="700">
+              Cítrico <span class="barra"><span class="citrico"></span></span>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="700">
+              Cuero <span class="barra"><span class="cuero"></span></span>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="700">
+              Ámbar <span class="barra"><span class="ambar"></span></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="mensagem-profunda">Sigma es el aroma del hombre moderno.</h1>
+    </section>
+    <footer class="rodape">
+      <div><h1>Contactos</h1></div>
+      <div><h1>Todos los Derechos reservados</h1></div>
+      <div><h1>Compre Ahora</h1></div>
+    </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
