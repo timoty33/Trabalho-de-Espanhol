@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Pefume SIGMA</title>
   </head>
   <body>
@@ -16,18 +17,34 @@
       </div>
     </nav>
 
-    <section id="inicio">
-      <div class="rocks">
+    <section id="inicio" class="inicio">
+      <div class="rocks" data-aos="fade-up" data-aos-duration="1000">
         <h1 class="titulo">
-          <span style="z-index: 2">SIGMA: <br />La Esencia del <br /></span
-          >Poder y la Distinción
+          <span style="font-weight: 900">S</span>
+          <span style="font-weight: 500; font-family: 'Outfit'">I</span>
+          <span style="font-weight: 900; font-family: 'Oswald'">G</span>
+          <span style="font-weight: 100"><em>M</em></span>
+          <span style="font-weight: 900; font-family: 'Special Gothic'">A</span
+          >: <br />La Esencia del <br />
+          Poder y la Distinción
         </h1>
-        <img class="perfum" src="images/perfum.png" />
+        <img
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+          class="perfum"
+          src="images/perfum.png"
+        />
         <img class="rock1" src="images/rock1.png" />
         <img class="rock2" src="images/rock2.png" />
         <img class="rock3" src="images/rock3.png" />
       </div>
     </section>
-    <p>Hello</p>
+    <section id="caracteristicas"></section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
